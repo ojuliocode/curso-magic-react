@@ -1,0 +1,10 @@
+.secao-projetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-de-projetos {
+    list-style-type: none;
+}

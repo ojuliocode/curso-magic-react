@@ -1,5 +1,6 @@
-import Header from './Header'
-import Conteudo from './Conteudo'
+import Header from './componentes/Header/Header'
+import Conteudo from './componentes/Conteudo/Conteudo'
+import Projetos from './componentes/Projetos/Projetos'
 import "./App.css"
 
 function App(){
@@ -7,6 +8,7 @@ function App(){
     <div className="conteudo-principal">
       <Header />
       <Conteudo />
+      <Projetos />
       <footer className="footer">
         <p>
           Feito por @ojuliocode
