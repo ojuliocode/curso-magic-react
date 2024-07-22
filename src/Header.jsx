@@ -1,13 +1,18 @@
 import "./Header.css"
 
 function Header(){
-    return (
+  let links = ["Home", "Sobre mim", "Projetos"]
+    
+  // () => {}
+  return (
       <header className="header">
         <h1> @ojuliocode </h1>
         <ul className="links">
-          <li> <a href=""> Home </a></li>
-          <li> <a href=""> Sobre mim </a></li>
-          <li> <a href=""> Projetos  </a></li>
+          {
+            links.map((linkDaVez) => {
+                return <li><a href=""> {linkDaVez} </a></li>
+            })
+          }
         </ul>
       </header>
     )
