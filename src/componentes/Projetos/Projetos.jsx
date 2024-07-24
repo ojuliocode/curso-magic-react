@@ -8,15 +8,15 @@ function Projetos(){
             <ul className="lista-de-projetos">
                 <li>
                     <a href="">Link pro Github</a>
-                    <img src="" alt="" />
+                    <img src="src/assets/facebook.png" alt="" />
                 </li> 
                 <li>
                     <a href="">Link pro Github</a>
-                    <img src="" alt="" />
+                    <img src="src/assets/tesla.png" alt="" />
                 </li> 
                 <li>
                     <a href="">Link pro Github</a>
-                    <img src="" alt="" />
+                    <img src="src/assets/vite.png" alt="" />
                 </li>
             </ul>
         </section>
